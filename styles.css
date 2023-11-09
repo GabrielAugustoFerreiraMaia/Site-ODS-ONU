@@ -12,6 +12,42 @@ header {
     text-align: center;
 }
 
+footer {
+    background-color: #009EDB;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
 h1 {
     margin: 0;
 }
@@ -44,6 +80,6 @@ img {
 }
 
 ul {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: none;
+    padding-left: 0px;
 }

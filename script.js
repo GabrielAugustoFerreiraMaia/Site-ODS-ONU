@@ -19,6 +19,6 @@ function translatePage(targetLanguage) {
 
     elementsToTranslate.forEach(element => {
         const translation = element.getAttribute(`data-${targetLanguage}`);
-        element.textContent = translation;
+        element.innerHTML = translation;
     });
 }
