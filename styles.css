@@ -74,6 +74,27 @@ img {
     background-color: #fff;
 }
 
+.images-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ods-icon {
+    vertical-align: middle;
+}
+
+#ods h2 {
+    text-align: center;
+}
+
+li .ods-icon {
+    vertical-align: middle;
+    margin-right: 10px;
+    /* Espaço à direita da imagem */
+    margin-left: 10px;
+    /* Espaço à esquerda da imagem */
+}
+
 #about,
 #ods {
     margin-bottom: 20px;
